@@ -1,0 +1,67 @@
+:root {
+  --main-color: #00ffee;
+  --bg-color: #b8e2f4;
+  --second-bg-color: #131313;
+  --text-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background: var(--main); */
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family-bai);
+}
+@media (max-width: 1285px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 52.5rem) {
+  section {
+    padding: 10rem 3% 2rem !important;
+  }
+  h2 {
+    font-size: 7rem !important;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.5;
+}
+h1 {
+  font-size: 7rem;
+}
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.8rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
