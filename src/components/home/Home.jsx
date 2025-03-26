@@ -9,6 +9,7 @@ export default function Home() {
         <img className="laundry-logo" src="/data/laundry-logo.png" alt="" />
         <h2>Laundry Maid Easy</h2>
         <p>Door-to-door ironing service</p>
+        <p>Door-to-door ironing service</p>
       </div>
     </HomeContainer>
   );
